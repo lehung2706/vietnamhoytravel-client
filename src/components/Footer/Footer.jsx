@@ -6,9 +6,17 @@ export default function Footer() {
       <div className="box-container">
         <div className="box">
           <h3>about us</h3>
-          <a><i className="fas fa-map-marker-alt"></i>&nbsp;Bim Tower, Hoang Quoc Viet, Ha Long, Quang Ninh</a>
-          <a href="tel:+84982556100"><i class="fas fa-phone-alt"></i>&nbsp;0982 556 100</a>
-          <a><i class="fas fa-envelope"></i>&nbsp;info@vietnamjoytravel.com</a>
+          <a href="#">
+            <i className="fas fa-map-marker-alt"></i>&nbsp;Bim Tower, Hoang Quoc
+            Viet, Ha Long, Quang Ninh
+          </a>
+          <a href="tel:+84982556100">
+            <i class="fas fa-phone-alt"></i>&nbsp;0982 556 100
+          </a>
+          <a href="#">
+            {" "}
+            <i class="fas fa-envelope"></i>&nbsp;info@vietnamjoytravel.com
+          </a>
         </div>
         {/* <div className="box">
           <h3>branch locations</h3>
@@ -18,7 +26,7 @@ export default function Footer() {
           <a href="#">france</a>
         </div> */}
         <div className="box">
-        <h3>follow us</h3>
+          <h3>follow us</h3>
           <div
             class="fb-page"
             data-href="https://www.facebook.com/vietnamjoytravel"
@@ -34,7 +42,10 @@ export default function Footer() {
               cite="https://www.facebook.com/vietnamjoytravel"
               class="fb-xfbml-parse-ignore"
             >
-              <a href="https://www.facebook.com/vietnamjoytravel" target='_blank'>
+              <a
+                href="https://www.facebook.com/vietnamjoytravel"
+                target="_blank"
+              >
                 Vietnam Joy Travel
               </a>
             </blockquote>
@@ -52,7 +63,9 @@ export default function Footer() {
         </div>
         <div className="box">
           <h3>follow us</h3>
-          <a href="https://www.facebook.com/vietnamjoytravel" target='_blank'>facebook</a>
+          <a href="https://www.facebook.com/vietnamjoytravel" target="_blank">
+            facebook
+          </a>
           <a href="#">instagram</a>
           <a href="#">twitter</a>
           <a href="#">linkedin</a>
